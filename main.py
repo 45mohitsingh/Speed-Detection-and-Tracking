@@ -112,8 +112,6 @@ while True:
 #after leaving the polygon
             elif distance1 <0 and speed_tuple[1]:
                 time_end[track_id]=time.time()
-                # print(time_end[track_id])
-                # s=(time_end[track_id]-time_start[track_id])
                 t_req=temp[0]/30
                 s=(20*(18/5))/t_req
                 speed[track_id]=(s,False)
